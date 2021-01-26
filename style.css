@@ -19,6 +19,9 @@ body{
     margin: auto;
 }
 
+hr{
+    margin: 3rem orem;
+}
 /* Links */
 .links{
     text-decoration: none;
