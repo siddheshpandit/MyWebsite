@@ -2,6 +2,7 @@
 
 :root{
     --primary-color:rgb(97, 115, 219);
+    --off-white:rgb(199, 199, 199);
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -86,4 +87,16 @@ hr{
 
 .hero .hero-heading .heading-inverted{
     color: blue;
+}
+
+/* Section */
+.section{
+    padding: 2rem;
+}
+.section h3{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
 }
