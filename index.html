@@ -3,109 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>home | siddheshpandit </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to siddheshpandit's Component Library</h1>
-    <p>I am attending neog.camp and I want to make a library 
-        which would make all my projects look good and consistent</p>
-    
-    <hr>
-
-    <h2>@typography</h2>   
-    <h1>This is biggest heading</h1>
-    <h6>This is smallest heading</h6>
-    <p>This is a paragraph</p>
-    <small>THis is small text</small>
-    
-    <hr>
-
-    <h2>@Containers</h2>
-    <h3>Fluid Containers</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page.</div>
-    
-    <h3>Centered Container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width.</div>
-    
-    <hr>
-
-    <h2>@Links</h2>
-    <a href="/" class="links link-primary">Primary Link</a>
-    <a href="http://www.google.com" class="links link-secondary">Secondary Link</a>
-   
-    
-
-    <hr>
-
-    <h2>@Lists</h2>
-    <h3>Unordered Lists</h3>
-    <ul class="list-no-bullets">
-        <li>Apple</li>
-        <li>Mangoes</li>
-        <li>Oranges</li>
-    </ul> 
-    <h3>UnOrdered Inline Lists</h3>
-    <ul class="list-no-bullets">
-    <li class="list-item-inline">Apple</li>
-    <li class="list-item-inline">Mangoes</li>
-    <li class="list-item-inline">Oranges</li>
-    </ul>
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-    <li>Apple</li>
-    <li>Mangoes</li>
-    <li>Oranges</li>
-    </ol>
-
-    <hr>
     <nav class="navigation container">
         <div class="nav-brand">@siddheshpandit</div>
         <ul class="list-no-bullets nav-pills">
             <li class="list-item-inline">
-                <a class="links link-active" href="/home">Home</a>
+                <a class="link link-active" href="/home">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="links" href="/projects">Projects</a>
+                <a class="link" href="/projects.html">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="links" href="/about">About</a>
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
 
         </ul>
     </nav>
-       
-    <hr>
-
-    <h2>@Header</h2>
     <header class="hero">
         <img class="hero-image"src="images/headerImage.png" alt="" srcset="">
         <h1 class="hero-heading">Siddhesh Pandit <span class="heading-inverted">The Web Developer</span></h1>
     </header>
 
-    <hr>
-
-    <h2>@Section</h2>
-    <section class="section">
-        <div class="container container-center">
-    <h3>White Section</h3>
-    <p>This will have white background</p>
-</div>
-    </section>
     <section class="section ow">
         <div class="container container-center">
-        <h3>off White Section </h3>
-        <p>This will have gray background</p>
+        <h3>Technologies</h3>
+        <p>I am familier with Html,Css,Js</p>
+        <h3>Tools</h3>
+        <p>Git , Vscode and Web Hosting</p>
     </div>
     </section>
 
-    <hr>
-    <footer>
+    <section class="section">
+        <div class="container container-center">
+        <h3>Projects</h3>
+        <p>I like to showcase my work,thus you can see my projects hosted online.</p>
+        <a class="link link-primary"href="/">Browse Projects</a>
+    </div>
+    </section>
+    <section class="section">
+        <div class="container container-center">
+        <h3>Blogs</h3>
+        <p>I am also working on some technical and non-technical blogs.</p>
+        <a class="link link-primary"href="/">Read Blogs</a>
+    </div>
+    </section>
+
+    <footer class="container">
         <div>
-            Some Text inside footer
-        <ul>
-            <li>facebook</li>
-            <li>Linkdin</li>
+            Connect with me.
+        <ul class="social-link list-no-bullets">
+            <li class="list-item-inline"><a class="link" href="https://github.com/siddheshpandit">Github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/pandit-siddhesh/">Linkedin</a></li>
         </ul>
         </div>
     </footer>

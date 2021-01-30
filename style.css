@@ -2,7 +2,7 @@
 
 :root{
     --primary-color:rgb(97, 115, 219);
-    --off-white:rgb(199, 199, 199);
+    --off-white:rgb(240, 235, 235);
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -24,7 +24,7 @@ hr{
     margin: 3rem orem;
 }
 /* Links */
-.links{
+.link{
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -99,4 +99,16 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+footer .links{
+    color: white;
 }
